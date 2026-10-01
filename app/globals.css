@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream-50: #fdf9f6;
+  --color-cream-100: #faf2ec;
+  --color-cream-200: #f3e3d8;
+
+  --color-rose-soft-100: #fbe9e5;
+  --color-rose-soft-200: #f6cfc6;
+  --color-rose-soft-500: #c97b6a;
+  --color-rose-soft-600: #b06252;
+  --color-rose-soft-700: #8f4c40;
+
+  --color-plum-800: #3d2b2e;
+  --color-plum-900: #2c1f21;
+
+  --color-gold-400: #d4af7a;
+}
+
+:root {
+  --background: #fdf9f6;
+  --foreground: #2c1f21;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.fade-in {
+  animation: fadeUp 0.7s ease both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-texture {
+  background:
+    radial-gradient(ellipse 60% 50% at 20% 20%, rgba(246, 207, 198, 0.5), transparent),
+    radial-gradient(ellipse 50% 50% at 85% 15%, rgba(212, 175, 122, 0.25), transparent),
+    linear-gradient(180deg, #fdf9f6 0%, #faf2ec 100%);
+}
