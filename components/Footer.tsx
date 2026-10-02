@@ -17,7 +17,12 @@ export default function Footer() {
             Brand kecantikan lokal yang menghadirkan produk makeup dan skincare.
           </p>
           <div className="mt-4">
-            <SocialLinks light />
+            <p className="text-sm font-semibold tracking-wider uppercase text-[#d4af7a]">
+              Contact Us
+            </p>
+            <div className="mt-3">
+              <SocialLinks light />
+            </div>
           </div>
         </div>
 

@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero — foto banner asli AZZURA */}
+          {/* Hero — foto banner AZZURA */}
           <div className="relative aspect-[16/10] w-full overflow-hidden rounded-3xl border border-[#f3e3d8] bg-[#ead7c2] shadow-sm sm:aspect-[16/9] lg:aspect-[16/10]">
             <Image
               src="/images/hero/azzura-hero.png"
@@ -83,10 +83,10 @@ export default function Home() {
       {/* BRAND PREVIEW */}
       <section className="border-y border-[#f3e3d8] bg-white" aria-label="Kenali AZZURA">
         <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-12 sm:px-6 lg:grid-cols-2">
-          <div className="relative aspect-video overflow-hidden rounded-3xl border border-[#f3e3d8] bg-[#faf2ec]">
+          <div className="relative aspect-[21/9] overflow-hidden rounded-3xl border border-[#f3e3d8] bg-[#eef6fa]">
             <Image
-              src="/images/brand/skincare.png"
-              alt="Rangkaian skincare AZZURA Diamond Bright: Gentle Facial Wash, Serum, Night Cream, Day Cream, Sunscreen, dan Micellar Cleansing Water"
+              src="/images/brand/diamond-bright-banner.png"
+              alt="AZZURA Diamond Bright — New Standard of Skincare, Real Glass Skin dalam 7 Hari"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"

@@ -12,13 +12,13 @@ export default function ProductCard({
 }) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-[#f3e3d8] bg-white transition hover:shadow-lg">
-      <div className="relative aspect-square w-full bg-[#faf2ec]">
+      <div className="relative aspect-square w-full overflow-hidden bg-white">
         {product.image ? (
           <Image
             src={product.image}
             alt={product.name}
             fill
-            className="object-cover"
+            className="object-contain object-center"
             sizes="(max-width: 768px) 100vw, 33vw"
           />
         ) : (
