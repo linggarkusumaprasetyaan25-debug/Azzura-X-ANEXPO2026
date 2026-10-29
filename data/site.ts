@@ -17,4 +17,5 @@ export const NAV_LINKS = [
   { label: "Home", href: "/" },
   { label: "Informasi Toko", href: "/informasi-toko" },
   { label: "Katalog", href: "/catalog" },
+  { label: "Dokumentasi", href: "/dokumentasi" },
 ];
